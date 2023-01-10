@@ -1,3 +1,4 @@
+/* 
 const fs = require('fs');
 class Contenedor {
     
@@ -73,4 +74,15 @@ setTimeout(function() {const listObject = JSON.stringify(file.getAll());
         console.log(`listado: ${listObject}`)}, 1500); */
 //console.log(file.getById(4))  
 //file.deleteById(8)
-file.deleteAll()
+//file.deleteAll() */
+ 
+
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+    res.end('Hello word')
+})
+
+server.listen (8080 , () => {
+    console.log('Servidor funciona correctamente')
+})
