@@ -1,13 +1,24 @@
 {
-    "name": "proyecto-node",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+  "name": "proyecto-node",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u00001\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomasdiazv/backend1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tomasdiazv/backend1/issues"
+  },
+  "homepage": "https://github.com/Tomasdiazv/backend1#readme",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "express": "^4.18.2"
   }
-  
+}
