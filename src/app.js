@@ -95,9 +95,14 @@ server.listen(8080, () => {
 
 const express = require('express')
 
+cosnt ProductManager = require('./ProductManager')
+
 const app = express()
 
 app.use(express.urlencoded({ extended: true }));
+
+const productManager = new ProductManager()
+productManager.addProduct('title','description','code')
 
 const arrayUsers = [
     {
